@@ -1,0 +1,141 @@
+body {
+	background-color: #2e2d2c;
+	font-family: "Ubuntu";
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.homepage {
+	background-image: url("img/achtergrond.jpg");
+	background-size: cover;
+	background-color: white;
+	height: 700px;
+}
+
+.header {
+	padding: 45px;
+}
+
+.header button {
+	border: none;
+	background: none;
+	width: 150px;
+	font-family: "Dosis";
+	font-size: 30px;
+	color: #2e2d2c;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.overmijknop, .portfolioknop {
+	margin-right: 45px;
+}
+
+.knoppen {
+	margin: 0 auto 0 auto;
+	width: 570px;
+	border-bottom: 2px solid #2e2d2c;
+}
+
+.naaronderknop, .naaronderknop2 {
+	background: none;
+	border: none;
+	padding: none;
+	margin: none;
+	position: absolute;
+	bottom: 5%;
+	right: 47.5%;
+}
+
+.overmij {
+	padding: 190px 370px 185px 370px;
+	background-color: #dd3c1f;
+	position: relative;
+}
+
+h1 {
+	width: 415px;
+	font-family: "Dosis";
+	font-size: 75px;
+	color: white;
+	margin: 0 auto 50px auto;
+	padding-bottom: 15px;
+	border-bottom: 4px solid white;
+	text-align: center;
+}
+
+.overmij p {
+	font-size: 25px;
+	color: white;
+	line-height: 30px;
+}
+
+.portfolio {
+	width: 934px;
+	padding: 50px 0 50px 0;
+	margin: 0 auto 0 auto;
+	display: block;
+}
+
+.portfolio img {
+	background-color: #dd3c1f;
+	border: 4px inset #dd3c1f;
+}
+
+.portfolio img:nth-child(2n):hover {
+	
+}
+
+.portfolio img:nth-child(2n+1):hover {
+
+}
+
+h2 {
+	width: 550px;
+	font-family: "Dosis";
+	font-size: 75px;
+	color: white;
+	margin: 0 auto 50px auto;
+	padding-bottom: 15px;
+	border-bottom: 4px solid white;
+	text-align: center;
+}
+
+.voorbeeld1, .voorbeeld2, .voorbeeld3 {
+	margin-right: 50px;
+}
+
+.voorbeeld5, .voorbeeld6, .voorbeeld7 {
+	margin-right: 50px;
+}
+
+.bovensterij {
+	margin-bottom: 50px;
+}
+
+
+footer {
+	clear: both;
+	background-color: #dd3c1f;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.naarbovenknop {
+	background: none;
+	padding: none;
+	margin: none;
+	border: none;
+	bottom: 2%;
+	right: 2%;
+	position: fixed;
+	display: none;
+}
+
+span {
+	margin: 0 25px 0 25px;
+}
